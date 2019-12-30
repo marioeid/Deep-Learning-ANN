@@ -61,7 +61,6 @@ classifier.compile(optimizer='adam',loss='binary_crossentropy',metrics=['accurac
 # batch size size when to update weights 
 # epochs number of iterations on gradient descenet
 classifier.fit(X_train,y_train,batch_size=10,epochs=100)
-# Create your classifier here
                           
                         # part 3 making predictions on the test set
 # Predicting the Test set results that the customer would leave the bank
